@@ -1,0 +1,22 @@
+div {
+    display: inline-block;
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#grd1 {
+    background-image: linear-gradient(#dd03e4, #5611ec);
+}
+#grd2 {
+    background-image: repeating-linear-gradient(45deg, cyan, cyan 5px,green 5px, green 10px);
+}
+#grd3 {
+    background-image: radial-gradient(#ff0000,#ffbb00);
+}
+#grd4 {
+    background-image: repeating-radial-gradient(#ff0000,#ff0000 5px,#121212 5px, #121212 10px);
+}
+#grd5 {
+    background-image: radial-gradient(cyan, red, transparent), linear-gradient(45deg, #a9b321, #8400ff, transparent);
+}

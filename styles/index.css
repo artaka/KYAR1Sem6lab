@@ -1,0 +1,41 @@
+body{
+    background-image: url(/img/facultetlogo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 15%;
+}
+
+th, td, table {
+    border: 1px black solid;
+}
+li {
+    list-style: none;
+    background-image: url(/img/check.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+section {
+    width: 400px;
+    margin-top: 40px;
+}
+img {
+    width: 150px;
+    height: 207px;
+}
+section p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 15px;
+}
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+#img2 {
+    float: right;
+}
+a {
+    font-size: 30px;
+}
