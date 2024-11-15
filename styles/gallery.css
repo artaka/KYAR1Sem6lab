@@ -1,9 +1,8 @@
 figure {
     background: #5f6a72;
     padding: 10px;
-    display: block;
+    display: inline-block;
     width: 20%;
-    float: left;
     margin: 0 10px 10px 0;
     text-align: center;
 }
@@ -12,5 +11,8 @@ img {
     height: 70%;
 }
 h1 {
+    text-align: center;
+}
+section {
     text-align: center;
 }
